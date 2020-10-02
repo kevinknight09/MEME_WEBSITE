@@ -1,0 +1,164 @@
+body
+{
+  margin: 0;
+  padding: 0;
+}
+
+.banner
+{
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  align-items: center;
+  justify-content:space-around;
+  padding: 0;
+  margin: 0;
+  height: 20vh;
+  background-image: linear-gradient(to left, rgba(0, 191, 255,0), rgba(0, 191, 255,1));
+}
+.heading
+{
+  font-family: 'Kaushan Script', cursive;
+  font-weight: bold;
+  font-size: 3vw;
+  color: #0000ff;
+}
+.motto
+{
+  font-family: 'Kaushan Script', cursive;
+  font-weight: bold;
+  font-size: 2vw;
+  color: #0000ff;
+}
+
+.motivation
+{
+  border-top: 2px solid  #003399;
+  border-bottom: 2px solid #003399;
+  display:flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0px;
+  margin: 0px;
+  height: 8vh;
+  background-color: #003F87;
+  font-size: 2.5vw;
+  font-family: 'Merienda', cursive;
+  color: white;
+}
+.memeclass
+{
+  height: 80vh;  /*600px*/
+  background-color: #70DBDB;
+  margin: 0;
+  padding: 3vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+
+}
+.meme_data
+{
+  height: inherit;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.related_data
+{
+  height: inherit;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+
+}
+
+.imageclass
+{
+  border: 6px solid blue;
+  border-style: ridge;
+  width: 65vh;
+  height: 65vh;
+}
+.memeclass h1
+{
+  color: red;
+  font-family: arial;
+}
+.details
+{
+  font-size: 20px;
+  font-family: 'Kaushan Script', cursive;
+  font-weight: bold;
+  color: blue;;
+}
+.buttonclass
+{
+  border-radius: 2px;
+  width: 280px;
+  height: 50px;
+  background-color: red;
+  font-weight: bold;
+  font-family: 'Merienda', cursive;
+}
+.download_class
+{
+  font-weight: bold;
+  color: black;
+  text-decoration: none;
+}
+
+footer
+{
+  padding: 0px;
+  margin: 0px;
+  display: flex;
+  height: 15vh;
+  background-color: #003F87;
+  justify-content: center;
+  align-items:center;
+  font-family: 'Merienda', cursive;
+  font-weight: bold;
+  color: white;
+}
+
+@media  (max-width:768px) {
+
+  .memeclass
+  {
+    flex-direction: column;
+    justify-content: center;
+  }
+  .banner
+  {
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .heading
+  {
+    font-size: 7vw;
+  }
+
+  .motto
+  {
+    font-size: 3vw;
+  }
+
+  .motivation
+  {
+    font-size: 4vw;
+  }
+
+  .imageclass
+  {
+    height: 50vh;
+    width: 80vw;
+  }
+
+}
