@@ -7,7 +7,6 @@ body
 .banner
 {
   display: flex;
-  flex-wrap: wrap;
   flex-direction: row;
   align-items: center;
   justify-content:space-around;
@@ -90,7 +89,7 @@ body
 }
 .details
 {
-  font-size: 20px;
+  font-size: 2vw;
   font-family: 'Kaushan Script', cursive;
   font-weight: bold;
   color: blue;;
@@ -129,8 +128,21 @@ footer
 
   .memeclass
   {
+    height: 100%;
     flex-direction: column;
     justify-content: center;
+  }
+
+  .meme_data
+  {
+    height: 50%;
+    width: 100%;
+  }
+
+  .related_data
+  {
+    height: 50%;
+    width: 100%;
   }
   .banner
   {
@@ -157,8 +169,19 @@ footer
 
   .imageclass
   {
-    height: 50vh;
-    width: 80vw;
+     height: 30%;
+     width:  80%;
+  }
+  .details
+  {
+    font-size: 3vw;
+
+  }
+
+  .buttonclass
+  {
+    width: 70%;
+    height: 40%;
   }
 
 }
