@@ -14,5 +14,4 @@ $(".buttonclass").click(function()
     $('.details').text(title);
   });
 
-
 });
